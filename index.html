@@ -1,14 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imobiliaria WEB</title>
+    <title>Imobiliária Fictícia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div>
-            <header id="cabecalho">Imobiliaria WEB</header>
+    <header>
+        <div class="logo">
+            <h1>Imobiliária Fictícia</h1>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Imóveis</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Bem-vindo à Imobiliária Fictícia</h2>
+        <p>Encontre o imóvel dos seus sonhos com a gente.</p>
+    </section>
+
+    <section id="properties">
+        <h2>Nossos Imóveis</h2>
+        <div class="property-list">
+            <div class="property">
+                <img src="ImgP1.webp" alt="Imóvel 1">
+                <h3>Casa de Campo</h3>
+                <p>Uma linda casa no campo para relaxar.</p>
+            </div>
+            <div class="property">
+                <img src="ImgP2.avif" alt="Imóvel 2">
+                <h3>Mansão Moderna</h3>
+                <p>Conforto e praticidade na cidade grande.</p>
+            </div>
+            <div class="property">
+                <img src="ImgP3.webp" alt="Imóvel 3">
+                <h3>Chalé na Montanha</h3>
+                <p>Vista incrível e tranquilidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Compra e venda de imóveis</li>
+            <li>Locação de propriedades</li>
+            <li>Consultoria imobiliária</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma imobiliária comprometida em oferecer o melhor serviço para nossos clientes. Com anos de experiência no mercado, nossa missão é tornar o processo de compra, venda e aluguel de imóveis o mais simples e eficiente possível.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Imobiliária Fictícia. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

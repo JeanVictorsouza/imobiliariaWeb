@@ -1,3 +1,137 @@
-.cabecalho{
-    color: red;
-}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #ccc;
+  }
+  
+  header {
+      background-color: midnightblue;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+  }
+  
+  header .logo h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-top: 0.5rem;
+  }
+  
+  nav ul li {
+      margin: 0 1rem;
+  }
+  
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+      text-decoration: underline;
+  }
+  
+  .hero {
+      background-image: url(ImgTeste4.jpg);
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+  }
+  
+  .hero p {
+      font-size: 1.2rem;
+  }
+  
+  section {
+      padding: 2rem;
+  }
+  
+  .property-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+  
+  .property {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 300px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property img {
+      width: 100%;
+      height: auto;
+  }
+  
+  .property h3 {
+      margin: 1rem 0;
+  }
+  
+  .property p {
+      padding: 0 1rem 1rem;
+      color: #555;
+  }
+  
+  form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  form label {
+      margin-bottom: 0.5rem;
+  }
+  
+  form input, form textarea, form button {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  
+  form button {
+      background-color: midnightblue;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+  
+  form button:hover {
+      background-color: darkblue;
+  }
+  
+  footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+  }
